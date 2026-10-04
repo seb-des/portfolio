@@ -1,0 +1,194 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="The portfolio of Raul Sebastiao — multidisciplinary creative, designer and strategist.">
+  <meta name="theme-color" content="#0b0b0b">
+  <title>Raul Sebastiao — Creative, Designer & Strategist</title>
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%230b0b0b'/%3E%3Cpath d='M15 48V16h18c10 0 16 5 16 14 0 6-3 10-9 12l10 6H38l-9-7h-4v7H15Zm10-16h8c4 0 6-2 6-5 0-2-2-4-6-4h-8v9Z' fill='%23d8ff45'/%3E%3C/svg%3E">
+  <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+  <div class="noise" aria-hidden="true"></div>
+  <div class="scroll-progress" aria-hidden="true"><span></span></div>
+  <div class="cursor" aria-hidden="true"></div>
+
+  <header class="site-header">
+    <a class="wordmark" href="#top" aria-label="Raul Sebastiao, home">
+      <span class="wordmark-mark">RS</span>
+      <span>Raul Sebastiao</span>
+    </a>
+    <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="site-nav">Menu</button>
+    <nav id="site-nav" aria-label="Primary navigation">
+      <a href="#about">About</a>
+      <a href="#work">Work</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <p class="header-status"><span></span> Open to collaborations</p>
+  </header>
+
+  <main id="top">
+    <section class="hero" aria-labelledby="hero-title">
+      <h1 id="hero-title" class="hero-title" aria-label="Seb Portfolio 2026">
+        <span class="line hero-name"><span>seb°</span></span>
+        <span class="line hero-portfolio"><span>Portfolio <b class="hero-year">‘26</b></span></span>
+      </h1>
+      <div class="hero-footer reveal">
+        <p>Creating identities, producing film and building product interfaces for brands.</p>
+        <a class="round-link" href="#work" aria-label="Explore selected work">
+          <span>Explore</span>
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="m6 9 6 6 6-6"/></svg>
+        </a>
+      </div>
+      <figure class="hero-image" aria-hidden="true">
+        <img src="./assets/bootleg-culture-hero.png" alt="">
+      </figure>
+    </section>
+
+    <section id="about" class="about-section">
+      <div class="section-heading reveal">
+        <p class="eyebrow">About</p>
+      </div>
+      <div class="about-grid">
+        <div class="about-lead">
+          <p class="about-statement reveal">Thinking outside the box requires being <em>outside</em> the ‘box’.</p>
+          <div class="about-tools reveal">
+            <p class="eyebrow">Tools°</p>
+            <figure class="tools-visual">
+              <img src="./assets/tools-visual.png" alt="Adobe Creative Cloud, Illustrator, Photoshop, After Effects, XD and Figma inside a design selection box">
+              <figcaption>and more…</figcaption>
+            </figure>
+          </div>
+        </div>
+        <div class="about-copy reveal">
+          <p>Hey! I’m Raul Sebastiao, a self-taught digital creative who has spent the last few years creating identities, producing film and building product interfaces for brands.</p>
+          <p>If I’m not behind the screen, you can find me by a lake, up a mountain or cycling through a country.</p>
+        </div>
+      </div>
+      <div class="about-media reveal" aria-label="Raul's cycling and travel photography">
+        <figure><img src="./assets/cycling-climb.jpg" alt="Raul pushing a loaded bicycle uphill"></figure>
+        <figure><img src="./assets/amsterdam-finish.jpg" alt="Raul holding his bicycle above his head in Amsterdam"></figure>
+        <figure><img src="./assets/mountain-cycle.jpg" alt="Loaded bicycle at 1700 metres altitude"></figure>
+      </div>
+      <div class="services-heading reveal">
+        <p class="eyebrow">What I create°</p>
+        <p>From the idea to the final thing.</p>
+      </div>
+      <div class="services-list">
+        <div class="service-row reveal"><h3>Logo & Brand Identity</h3><p>Monograms, type, colour palettes and brand guidelines.</p></div>
+        <div class="service-row reveal"><h3>UX/UI</h3><p>Dashboards, websites and applications.</p></div>
+        <div class="service-row reveal"><h3>Videography</h3><p>Filming, editing and social marketing.</p></div>
+        <div class="service-row reveal"><h3>Everything else</h3><p>Event merchandise and printing.</p></div>
+      </div>
+    </section>
+
+    <section id="work" class="work-section">
+      <div class="section-heading reveal">
+        <p class="eyebrow">Selected work</p>
+        <p class="section-intro">A focused mix of brand, product and campaign thinking.</p>
+      </div>
+
+      <div class="project-list">
+        <button class="project-row reveal" type="button" data-project="vendahead" aria-haspopup="dialog">
+          <span class="project-name">VendAhead</span>
+          <span class="project-meta">Brand identity · Digital</span>
+          <span class="project-year">2026</span>
+          <span class="project-arrow">↗</span>
+        </button>
+        <button class="project-row reveal" type="button" data-project="empower-physiotherapy" aria-haspopup="dialog">
+          <span class="project-name">Empower Physiotherapy</span>
+          <span class="project-meta">Brand identity · Social content</span>
+          <span class="project-year">2026</span>
+          <span class="project-arrow">↗</span>
+        </button>
+        <button class="project-row reveal" type="button" data-project="syncd" aria-haspopup="dialog">
+          <span class="project-name">SYNCD</span>
+          <span class="project-meta">Product · UI · Strategy</span>
+          <span class="project-year">2026</span>
+          <span class="project-arrow">↗</span>
+        </button>
+        <button class="project-row reveal" type="button" data-project="urban-essentials" aria-haspopup="dialog">
+          <span class="project-name">Urban Essentials</span>
+          <span class="project-meta">Art direction · Web</span>
+          <span class="project-year">2026</span>
+          <span class="project-arrow">↗</span>
+        </button>
+        <button class="project-row reveal" type="button" data-project="country-hype" aria-haspopup="dialog">
+          <span class="project-name">Country Hype</span>
+          <span class="project-meta">Identity · Motion</span>
+          <span class="project-year">2026</span>
+          <span class="project-arrow">↗</span>
+        </button>
+      </div>
+
+      <div class="project-preview" aria-hidden="true">
+        <div class="preview-art"></div>
+        <span>View project</span>
+      </div>
+    </section>
+
+    <section id="contact" class="contact-section">
+      <p class="eyebrow reveal">Start something</p>
+      <h2 class="reveal">Have an idea worth<br><em>making real?</em></h2>
+      <div class="contact-footer reveal">
+        <p>For freelance projects, collaborations and agency opportunities.</p>
+        <a class="contact-link" href="https://www.instagram.com/bro.cycles/" target="_blank" rel="noreferrer">Start a conversation <span>↗</span></a>
+      </div>
+      <div class="footer-line">
+        <span>Raul Sebastiao © 2026</span>
+        <a href="#top">Back to top ↑</a>
+      </div>
+    </section>
+  </main>
+
+  <dialog class="project-dialog" aria-labelledby="dialog-title">
+    <div class="dialog-shell">
+      <header class="dialog-bar">
+        <span class="dialog-index">Project</span>
+        <span class="dialog-progress">Scroll to explore ↓</span>
+        <button class="dialog-close" type="button" aria-label="Close project">Close ×</button>
+      </header>
+      <div class="dialog-scroll">
+        <section class="case-hero">
+          <div class="dialog-visual"><div class="dialog-art"></div></div>
+          <div class="case-hero-copy">
+            <p class="case-category"></p>
+            <h2 id="dialog-title"></h2>
+            <p class="dialog-lead"></p>
+          </div>
+        </section>
+        <section class="case-overview case-section">
+          <div class="case-overview-copy">
+            <p class="case-label">Project overview</p>
+            <p class="case-big-copy case-overview-text"></p>
+          </div>
+          <dl class="case-details">
+            <div><dt>Tools / Platform</dt><dd class="case-tools"></dd></div>
+            <div><dt>Deliverables</dt><dd class="case-deliverables-text"></dd></div>
+            <div><dt>Timeline</dt><dd class="case-timeline"></dd></div>
+          </dl>
+        </section>
+        <div class="case-narrative"></div>
+        <section class="case-solution case-section">
+          <div class="case-feature-art" role="img"></div>
+          <div class="case-solution-copy"><p class="case-label">The solution</p><h3 class="case-solution-title"></h3><p class="case-solution-text"></p></div>
+        </section>
+        <div class="case-features"></div>
+        <section class="case-gallery case-section" hidden>
+          <div class="case-gallery-heading">
+            <p class="case-label">Showcase</p>
+            <p class="case-gallery-intro"></p>
+          </div>
+          <div class="case-gallery-grid"></div>
+        </section>
+        <section class="case-outcome case-section" hidden></section>
+        <section class="case-credits case-section"></section>
+        <button class="next-project" type="button"><span>Next project</span><strong></strong><i>→</i></button>
+      </div>
+    </div>
+  </dialog>
+
+  <script src="./app.js"></script>
+</body>
+</html>
